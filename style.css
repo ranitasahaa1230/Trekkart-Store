@@ -79,7 +79,6 @@ section{
 .home{
     padding: 0;
     position: relative;
-
 }
 .home .slide-container .slide{
     min-height: 100vh;
@@ -107,10 +106,11 @@ section{
     position: relative;
     z-index: 0;
 }
-.home .slide-container .slide .image .shoes{
+.home .slide-container .slide .image .travel{
     width: 100%;
     transform: rotate(0deg);
     animation: shoeContent .3s linear;
+    border-radius: 5rem;
 }
 .home .slide-container:nth-child(3) .slide .image .shoes{
     transform: rotate(-35deg);
@@ -166,11 +166,22 @@ section{
     color: aqua;
 }
 .home .slide-container:nth-child(3) .slide{
-    background: url('./components/images/home-bg-1.jpg') no-repeat;
-    background-size:cover;
+    background:url('./components/images/home-bg-1.jpg') no-repeat;
+    background-size: cover;
     background-position: center;
-
-}
+  }
+  
+  .home .slide-container:nth-child(2) .slide{
+    background:url('./components/images/home-bg-2.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .home .slide-container:nth-child(1) .slide{
+    background:url('./components/images/home-bg-3.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
 
 .home .slide-container{
     display: none;
@@ -285,7 +296,7 @@ section{
     .home #prev,.home #next{
         top: 85%;
     }
-    .home .slide-container .slide .image .shoes{
+    .home .slide-container:nth-child(3) .slide .image .shoes{
         margin: 0 2rem;
     }
 }
