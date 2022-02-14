@@ -3,10 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Ranita Saha" />
+    <meta name="description" content="Trekkart Store"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Trekkart Store | Online Shopping Site for the ones who love travelling</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="components/logo/favicon-32x32.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- UI Library -->
+	<link rel="stylesheet" href="https://celebrate-ui-design.netlify.app//Components/travizz.css"/>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
     
+    <header>
+      <div id="menu-bar" class="fas fa-bars"></div>
+        <a href="" class="logo">Trekkart Store</a>
+
+        <nav class="navbar">
+          <a href="#home" class="href">Home</a>
+          <a href="#products" class="href">Products</a>
+          <a href="#featured" class="href">Featured</a>
+          <a href="#review" class="href">Reviews</a>
+        </nav>
+
+        <div class="font-icons">
+          <a href="" class="fas fa-heart"></a>
+          <a href="" class="fas fa-shopping-cart"></a>
+          <a href="" class="fas fa-user"></a>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+      <div class="slide-container">
+        <div class="slide">
+        <div class="content">
+          <span>Nike Blue Shoes</span>
+          <h3>Nike Metcon Shoes</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi iusto saepe dolorem molestias blanditiis recusandae itaque pariatur rerum odio. Rem numquam alias voluptate aut assumenda iste quasi, est nulla amet!</p>
+          <a href="#" class="btn">Add to Cart</a>
+        </div>
+        <div class="image">
+          <img src="./components/images/travel-1.jpg" class="shoes" alt="">
+        </div>
+      </div>
+      </div>
+
+      <div class="slide-container">
+        <div class="slide">
+        <div class="content">
+          <span>Nike Red Shoes</span>
+          <h3>Nike Metcon Shoes</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi iusto saepe dolorem molestias blanditiis recusandae itaque pariatur rerum odio. Rem numquam alias voluptate aut assumenda iste quasi, est nulla amet!</p>
+          <a href="#" class="btn">Add to Cart</a>
+        </div>
+        <div class="image">
+          <img src="./components/images/home-shoe-5.png" class="shoes" alt="">
+        </div>
+      </div>
+      </div>
+
+      <div class="slide-container active">
+        <div class="slide">
+        <div class="content">
+          <span>Nike Red Shoes</span>
+          <h3>Nike Metcon Shoes</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi iusto saepe dolorem molestias blanditiis recusandae itaque pariatur rerum odio. Rem numquam alias voluptate aut assumenda iste quasi, est nulla amet!</p>
+          <a href="#" class="btn">Add to Cart</a>
+        </div>
+        <div class="image">
+          <img src="./components/images/home-shoe-1.png" class="shoes" alt="">
+          <img src="./components/images/home-text-1.png" class="text" alt="">
+        </div>
+      </div>
+      </div>
+
+
+      <div id="prev" class="fas fa-chevron-left"></div>
+      <div id="next" class="fas fa-chevron-right"></div>
+
+    </section>
+
+    <section class="service">
+
+      <div class="box-container">
+  
+          <div class="box">
+              <i class="fas fa-shipping-fast"></i>
+              <h3>fast delivery</h3>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, fugit.</p>
+          </div>
+  
+          <div class="box">
+              <i class="fas fa-undo"></i>
+              <h3>10 days replacements</h3>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, fugit.</p>
+          </div>
+  
+          <div class="box">
+              <i class="fas fa-headset"></i>
+              <h3>24 x 7 support</h3>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, fugit.</p>
+          </div>
+  
+      </div>
+  
+  </section>
+
+    <script src="./script.js"></script>
 </body>
 </html>
+
