@@ -99,7 +99,6 @@ section{
         transform: translateX(-10rem);
     }
 }
-
 .home .slide-container .slide .image{
     flex: 1 1 50rem;
     padding-bottom: 15rem;
