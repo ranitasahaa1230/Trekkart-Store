@@ -93,8 +93,8 @@ header .font-icons a:hover{
 #menu-bar{
     font-size: 2.5rem;
     padding:.5rem 1.5rem;
-    border: 1rem solid green;
-    color: green;
+    border: 2px solid var(--black-bg);
+    color: var(--bg-code);
     border-radius: .3rem;
     cursor: pointer;
     display: none;
@@ -173,7 +173,7 @@ section{
     font-weight: bold;
 }
 .home .slide-container .slide .content h3{
-    font-size: 6rem;
+    font-size: 5rem;
     color:var(--black-bg);
     font-style: italic;
 
@@ -236,16 +236,18 @@ section{
   width:5rem;
   line-height: 4.5rem;
   font-size: 2rem;
-  color:black;
-  border:.2rem solid yellowgreen;
+  color:var(--black-bg);
+  border:.2rem solid var(--primary-blue);
   cursor: pointer;
   text-align: center;
 }
 
 .home #prev:hover,
 .home #next:hover{
-  color:#fff;
-  background:orange;
+  color:var(--bg-code);
+  background:var(--primary-color);
+  border:.2rem solid var(--primary-color);
+
 }
 
 .home #prev{
@@ -259,9 +261,9 @@ section{
     display: flex;
     flex-wrap: wrap;
     gap:1.5rem;
-    background:#f9f9f9;
+    background:var(--bg-code);
     border:.1rem solid rgba(0,0,0,.1);
-    border-radius: .5rem;
+    border-radius: 5px;
     padding:2rem;
   }
   
@@ -272,18 +274,18 @@ section{
   
   .service .box-container .box i{
     font-size: 4rem;
-    color:var(--orange);
+    color:var(--gray);
   }
   
   .service .box-container .box h3{
     font-size: 2rem;
-    color:var(--black);
+    color:var(--black-bg);
     padding-top: 1rem;
   }
   
   .service .box-container .box p{
     font-size: 1.5rem;
-    color:#666;
+    color:var(--gray);
     padding:1rem 0;
   }
 
@@ -310,21 +312,25 @@ section{
         top: 100%;
         left: -120%;
         width: 100%;
-        background: gold;
-        border-top: .1rem solid rebeccapurple;
+        background: var(--bg-code);
     }
     header .navbar.active{
         left: 0;
     }
     header .navbar a{
         font-size: 2rem;
-        background: #fff;
-        border: .1rem solid black;
-        border-radius: .5rem;
+        background: var(--bg-code);
+        border: .1rem solid var(--black-bg);
+        color: var(--black-bg);
+        border-radius: 5px;
         padding: 1.5rem;
         margin: 1.5rem;
         display: block;
         text-align: center;
+    }
+    header .navbar a:hover{
+        color: var(--primary-color);
+        font-weight: 800;
     }
     .home .slide-container .slide .image .text{
         width: 60%;
