@@ -10,7 +10,6 @@
     outline: none;
     border: none;
     text-decoration: none;
-    text-transform: capitalize;
 }
 
 html {
@@ -86,7 +85,6 @@ header .font-icons a:hover{
 }
 .logo-design{
     width:4rem;
-    border-radius: 15rem;
 }
 
 
