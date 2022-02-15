@@ -21,7 +21,11 @@ html {
 }
 
 :root{
-
+    --primary: #621a9a;
+    --primary-color:#560bad;
+    --primary-light: #f700f7;
+    --primary-dark: #ac4ff4;
+    --primary-hover: #ac4ff4;
 }
 
 header{
@@ -30,38 +34,47 @@ header{
     left: 0;
     right: 0;
     z-index: 1000;
-    background: palevioletred;
+    background:var(--primary);
     padding: 2rem 9%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    box-shadow: 0 .5rem 1rem blue;
+    box-shadow: 0 8px 12px black;
 }
 
 header .logo{
     font-size: 2.5rem;
-    color: orangered;
+    color: aqua;
 }
 
 header .navbar a{
     font-size: 1.7rem;
-    color: aqua;
+    color: #fff;
     margin: 0 1rem;
 }
 
 header .navbar a:hover{
-    color:violet;
+    color:aqua;
 }
 
 header .font-icons a{
     font-size: 2.5rem;
-    color: aqua;
+    color: #fff;
     margin-left: 1.5rem;
 }
 
 header .font-icons a:hover{
-    color:violet;
+    color:aqua;
 }
+.logo-header{
+    display: flex;
+    align-items: center;
+}
+.logo-design{
+    width:4rem;
+}
+
+
 #menu-bar{
     font-size: 2.5rem;
     padding:.5rem 1.5rem;
@@ -110,10 +123,11 @@ section{
     transform: rotate(0deg);
     animation: shoeContent .3s linear;
     border-radius: 5rem;
+    padding: 1rem 0;
 }
 .home .slide-container:nth-child(3) .slide .image .shoes{
     transform: rotate(-35deg);
-    margin: 0 9rem;
+    margin: 1rem 9rem;
 }
 @keyframes shoeContent{
     0%{
