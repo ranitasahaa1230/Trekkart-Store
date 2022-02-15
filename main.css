@@ -69,6 +69,45 @@ header .navbar a{
 header .navbar a:hover{
     color:var(--secondary-hover);
 }
+header form{
+    display: flex;
+    align-items: center;
+    width: 40rem;
+    border-radius: 5rem;
+    height: 5rem;
+    border: 2px solid var(--bg-code);
+    background: var(--bg-code);
+    overflow:hidden;
+}
+header form input{
+    width: 100%;
+    height: 100%;
+    background: none;
+    font-size: 1.7rem;
+    color:var(--primary-color);
+    padding:0 2rem;
+    text-transform: none;
+}
+header form label{
+    font-size: 2rem;
+    padding-right: 2rem;
+    color:var(--black-bg);
+    cursor: pointer;
+}
+
+header form label:hover{
+    color:var(--secondary-hover);
+}
+
+
+
+
+
+
+
+
+
+
 
 header .font-icons a{
     font-size: 2.5rem;
@@ -339,6 +378,18 @@ section{
     .home .slide-container:nth-child(3) .slide .image .shoes{
         margin: 0 2rem;
     }
+
+       header{
+            flex-flow: column;
+        }
+    
+        header form{
+            width:100%;
+            margin:2rem 0;
+        }
+        .home .slide-container .slide .content h3{
+            margin-top:15rem;
+        }
 }
 
 @media (max-width:400px){
