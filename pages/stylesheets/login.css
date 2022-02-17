@@ -1,12 +1,12 @@
 
-/* .hero{
+.hero{
     height: 100%;
     width: 100%;
     background-image: linear-gradient(var(--shadow-color), var(--shadow-color)), url('../login-photo.jpg');
     background-position: center;
     background-size: cover;
     position: absolute;
-} */
+} 
 .form-box{
     width: 38rem;
     height: 48rem;

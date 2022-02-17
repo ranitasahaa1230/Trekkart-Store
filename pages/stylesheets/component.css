@@ -1,6 +1,6 @@
 @import './index.css';
-@import './login.css';
-@import './signup.css';
+/* @import './login.css'; */
+@import './auth.css';
 /* @import './products.css';
 @import './wishlist.css';
 @import './cart.css';
