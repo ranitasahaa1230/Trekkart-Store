@@ -53,6 +53,19 @@ html {
     transition: .5s;
 } */
 
+.social-icons{
+    margin: 30px auto;
+    text-align: center;
+}
+.social-icons a{
+    margin: 0 12px;
+    cursor: pointer;
+}
+.social-icons i{
+    font-size:2.5rem;
+    box-shadow: 0 0 20px 0 red;
+
+}
 .input-group{
     top: 180px;
     position: absolute;
