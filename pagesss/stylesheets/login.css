@@ -31,15 +31,15 @@ html {
     position: absolute;
 }
 .form-box{
-    width: 380px;
-    height: 480px;
+    width: 38rem;
+    height: 48rem;
     position: relative;
     margin: 6% auto;
     background:var(--bg-code);
     padding: 5px;
 }
 .button-box{
-    width: 100px;
+    width: 30rem;
     margin:2rem auto;
     position: relative;
 }
