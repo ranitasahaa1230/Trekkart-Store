@@ -77,24 +77,3 @@
   text-decoration: none;
   border-bottom: 2px solid var(--primary-color);
 }
-
-.footer {
-    text-align: center;
-    background: var(--primary-dark);
-    margin-top: 10rem;
-    font-size: 1.3rem;
-    padding: 1.8rem;
-  }
-  .link-social {
-    margin: 1rem;
-  }
-  .nav-pills {
-    padding: 8px;
-    font-size: 1.8rem;
-  }
-  .nav-pills:hover {
-    color: var(--primary-color);
-  }
-  span.footer-copyright {
-    font-size: 1.2rem;
-  }
