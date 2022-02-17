@@ -18,9 +18,20 @@ html {
   scroll-padding-top: 6rem;
   scroll-behavior: smooth;
 }
+
 body{
   font-family: "Roboto", sans-serif;
 }
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--primary-blue);
+}
+
 :root {
   /* --primary: #621a9a; */
   --primary-color: #571089;
@@ -33,6 +44,7 @@ body{
   --bg-code: #fafafa;
   --secondary-hover: #00ffff;
   --shadow-color: rgba(0, 0, 0, 0.1);
+  --cta-color: #7e17c8;
 }
 
 header {
