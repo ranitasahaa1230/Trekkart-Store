@@ -2,10 +2,12 @@
     width: 100%;
     max-width: 60rem;
     position: relative;
+    top:10rem;
     margin:5rem auto;
     background:var(--bg-code);
     padding: 12px 0;
-    border-radius: 3px;
+    border-radius:1rem;
+    box-shadow: 0 0 12px 0 var(--primary-color);
 }
 .button-box{
     margin:1rem auto;
