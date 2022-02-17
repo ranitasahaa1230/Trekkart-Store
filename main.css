@@ -30,7 +30,7 @@ html {
   --black-bg: #000814;
   --bg-code: #fafafa;
   --secondary-hover: #00ffff;
-
+  --shadow-color:rgba(0,0,0,.1);
 
 }
 
@@ -289,7 +289,7 @@ section{
     flex-wrap: wrap;
     gap:1.5rem;
     background:var(--bg-code);
-    border:.1rem solid rgba(0,0,0,.1);
+    border:2px solid var(--shadow-color);
     border-radius: 5px;
     padding:2rem;
   }
@@ -323,17 +323,13 @@ section{
   }
   
   .latest-products .products-container .product-box{
-    border:2px solid rgba(0,0,0,.1);
+    border:2px solid var(--shadow-color);
     border-radius: 10px;
     text-align: center;
     overflow: hidden;
     background:var(--bg-code);
     flex: 1 1 30rem;
     padding-bottom:1rem;
-  }
-  
-  .latest-products .products-container .product-box img{
-    filter:drop-shadow(0 .5rem 1rem rgba(0,0,0,.1));
   }
   
   .latest-products .products-container .product-box:hover img{ 
@@ -353,7 +349,7 @@ section{
     gap:1.5rem;
   }
   .latest-brands .brands-container .brands-box{
-    border:.2px solid rgba(0,0,0,.1);
+    border:.2px solid var(--shadow-color);
     border-radius: 10px;
     text-align: center;
     overflow: hidden;
@@ -377,7 +373,7 @@ section{
   .review .box-container .box{
     flex:1 1 30rem;
     text-align: center;
-    border:.1rem solid rgba(0,0,0,.1);
+    border:2px solid var(--shadow-color);
     border-radius: 6px;
     background:var(--bg-code);
     padding:2rem;
@@ -409,7 +405,7 @@ section{
  
   .newsletter .content{
     text-align: center;
-    border:.1rem solid rgba(0,0,0,.1);
+    border:2px solid var(--shadow-color);
     border-radius: 6px;
     background:var(--bg-code);
     padding:2rem;
@@ -444,7 +440,7 @@ section{
   }
   
   .footer .box-container{
-    border:.1rem solid rgba(0,0,0,.1);
+    border:2px solid var(--shadow-color);
     border-radius: 6px;
     background:var(--bg-code);
     padding:2rem;
@@ -477,21 +473,15 @@ section{
   .footer .box-container .credit{
     text-align: center;
     width:100%;
-    border-top: .1rem solid rgba(0,0,0,.1);
+    border-top: 2px solid var(--shadow-color);
     font-size: 1.5rem;
     padding:1rem;
     padding-top: 2rem;
-    color:#999;
-  }
-  
-  .footer .box-container .credit span{
-    color:var(--orange);
+    color:var(--black-bg);
   }
   
   
-
-
-
+ 
 @media (max-width:991px){
     html{
         font-size: 55%;
