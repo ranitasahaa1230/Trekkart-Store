@@ -30,3 +30,18 @@ function prevSlider(){
     index=(index-1)% slides.length;
     slides[index].classList.add('active');
 }
+
+document.querySelectorAll('.featured-image-1').forEach(image_1 =>{
+    image_1.addEventListener('click', () =>{
+      var src = image_1.getAttribute('src');
+      document.querySelector('.big-image-1').src = src;
+    });
+  });
+  
+  document.querySelectorAll('.featured-image-2').forEach(image_2 =>{
+    image_2.addEventListener('click', () =>{
+      var src = image_2.getAttribute('src');
+      document.querySelector('.big-image-2').src = src;
+    });
+  });
+  
