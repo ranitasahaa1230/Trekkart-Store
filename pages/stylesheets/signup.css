@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+:root {
+    --primary-color: #571089;
+    --primary-light: #f700f7;
+    --primary-hover: #ac4ff4;
+    --primary-blue: #3f37c9;
+    --secondary-color: #0096c7;
+    --gray: #3e4152;
+    --black-bg: #000814;
+    --bg-code: #fafafa;
+    --secondary-hover: #00ffff;
+    --shadow-color: rgba(0, 0, 0, 0.1);
+  }
+  .hero{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(var(--shadow-color), var(--shadow-color)), url('../login-photo.jpg');
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.form-box{
+    width: 100%;
+    max-width: 60rem;
+    position: relative;
+    margin:5rem auto;
+    background:var(--bg-code);
+    padding: 12px 0;
+    border-radius: 3px;
+}
+.button-box{
+    margin:1rem auto;
+    text-align: center;
+    position: relative;
+}
+.toggle-btn{
+    padding: 10px 0;
+    color:var(--primary-blue);
+    font-size: 2.8rem;
+}
+
+.desc-icons{
+    font-size: 1.8rem;
+    padding: 4px 3rem;
+    color: var(--black-bg);
+    margin: 1rem 0;
+}
+
+.input-group{
+    width: 32rem;
+    transition: .5s;
+    margin: 0 auto;
+}
+
+.input-field{
+    width: 100%;
+    padding: 12px 5px;
+    margin: 5px 2rem;
+    border: 2px solid var(--shadow-color);
+    outline: none;
+    background: transparent;
+    border-radius: 5px;
+    color: var(--black-bg);
+}
+.submit-btns{
+    width:85%;
+    cursor: pointer;
+    padding: 10px 3rem;
+    margin: 10px auto;
+    display: block;
+    background:var(--primary-color);
+    border: 0;
+    outline: none;
+    color: var(--bg-code);
+    border-radius: 3rem;
+    font-size: 1.4rem;
+}
+.submit-btns:hover{
+    opacity: 0.9;
+}
+.check-box{
+    margin:1rem 5px;
+}
+.check-psswd{
+    color: var(--black-bg);
+    font-size: 1.4rem;
+}
+
+.input-account{
+    padding: 10px;
+    font-size: 1.5rem;
+    color: var(--black-bg);
+}
+.primary-account{
+    color: var(--black-bg);
+    text-decoration: none;
+    border-bottom: 2px solid var(--primary-color);
+}
