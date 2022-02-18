@@ -1,0 +1,14 @@
+.container{
+    display: grid;
+    grid-template-areas: "aside main main main main main";
+}
+aside{
+    height: 100vh;
+    /* overflow-y: auto; */
+    grid-area: aside;
+    background: pink;
+}
+main{
+    grid-area: main;
+    background: blue;
+}
