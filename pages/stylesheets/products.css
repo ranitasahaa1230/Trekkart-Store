@@ -73,7 +73,6 @@ ul{
   .cards:hover{
     transform: scale(1.04);
     box-shadow: 0 2px 2px var(--black-bg);
-
   }
   .cards-img {
     width: 100%;
@@ -143,6 +142,8 @@ ul{
     background-color: var(--primary-color);
     color: var(--bg-code);
     font-size: 1.6rem;
+
+
   }
   .btn-card-icon{
       margin: 10px;
