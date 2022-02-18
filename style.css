@@ -45,6 +45,8 @@ body{
   --secondary-hover: #00ffff;
   --shadow-color: rgba(0, 0, 0, 0.1);
   --cta-color: #7e17c8;
+  --dnd: #ae2012;
+
 }
 
 header {
@@ -219,7 +221,7 @@ section {
   padding: 0.5rem 0;
   font-weight: bold;
 }
-.btn {
+.btns {
   display: inline-block;
   margin-top: 1rem;
   border-radius: 5px;
@@ -230,7 +232,7 @@ section {
   background: var(--primary-color);
   padding: 10px;
 }
-.btn:hover {
+.btns:hover {
   background: none;
   color: var(--black-bg);
   border: 2px solid var(--primary-color);
@@ -441,7 +443,7 @@ section {
   margin-top: 1rem;
 }
 
-.newsletter .content form .btn {
+.newsletter .content form .btns {
   border-radius: 4px;
   padding: 1rem;
 }

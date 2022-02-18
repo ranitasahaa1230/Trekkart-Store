@@ -23,150 +23,429 @@
     <link rel="stylesheet" href="../style.css" />
 </head>
 <body>
-    <div class="container">
+    <header>
+        <div id="menu-bar" class="fas fa-bars menu-bar"></div>
+        <div class="logo-header">
+          <img
+            src="../components/images/home-logo.png"
+            alt="logo"
+            class="logo-design"
+          />
+          <a href="#" class="logo">Trekkart Store</a>
+        </div>
+  
+        <nav class="navbar">
+          <a href="/" class="href">Home</a>
+          <a href="#" class="href">Shop Now</a>
+        </nav>
+  
+        <form action="" class="class-form">
+          <input
+            type="search"
+            id="search-bar"
+            class="search-input"
+            placeholder="Search for products, brands and more..."
+          />
+          <label for="search-bar" class="fas fa-search search-label"></label>
+        </form>
+  
+        <div class="font-icons">
+          <a href="./pages/login.html" class="fas fa-heart"></a>
+          <a href="./pages/login.html" class="fas fa-shopping-cart"></a>
+          <a href="./pages/login.html" class="fas fa-user"></a>
+        </div>
+      </header>
+
+    <div class="products-container">
         <aside>
-            <div>
+            <div class="flex-filters flex-categories btm-b">
                 <h2>Filters</h2>
-                <span>Clear All</span>
+                <span class="filters-desc">Clear All</span>
             </div>
-
-            <ul>
-                <h3>Sort By</h3>
-                <li>
-                    <label for="low-to-high" class="">
-                    <input type="radio" name="price" id="low-to-high" class="" value="low to high" />Price - Low to High </label>
+            <ul class="flex-categories btm-b">
+                <h3 class="filter-desc-categories">Sort By</h3>
+                <li class="filter-sorts">
+                    <label for="low-to-high" class="filter-categories">
+                    <input type="radio" name="price" id="low-to-high" class="filter-categories" value="low to high" />Price - Low to High </label>
                 </li>
-                <li>
-                    <label for="high-to-low" class="">
-                    <input type="radio" name="price" id="high-to-low" value="high to low" />Price - High to Low </label>
-                </li>
-            </ul>
-
-            <ul>
-                <h3>Category</h3>
-                <li>
-                    <label for="jackets" class="">
-                    <input type="checkbox" name="category" id="jackets" class="" value="jackets" />Jackets</label>
-                </li>
-                <li>
-                    <label for="suitcase" class="">
-                    <input type="checkbox" name="category" id="suitcase" class="" value="suitcase" />Suitcases</label>
-                </li>
-                <li>
-                    <label for="backpacks" class="">
-                    <input type="checkbox" name="category" id="backpacks" class="" value="backpacks" />Backpacks</label>
-                </li>
-                <li>
-                    <label for="trekking-gears" class="">
-                    <input type="checkbox" name="category" id="trekking-gears" class="" value="trekking-gears" />Trekking Gears</label>
-                </li>
-                <li>
-                    <label for="shoes" class="">
-                    <input type="checkbox" name="category" id="shoes" class="" value="shoes" />Travelling Shoes</label>
+                <li class="filter-sorts">
+                    <label for="high-to-low" class="filter-categories">
+                    <input type="radio" name="price" id="high-to-low" class="filter-categories" value="high to low" />Price - High to Low </label>
                 </li>
             </ul>
 
-            <ul>
-                <h3>Brands</h3>
-                <li>
-                    <label for="arnisa" class="">
-                    <input type="checkbox" name="category" id="arnisa" class="" value="arnisa" />Arnisa</label>
+            <ul class="flex-categories btm-b">
+                <h3 class="filter-desc-categories">Category</h3>
+                <li class="filter-sorts">
+                    <label for="jackets" class="filter-categories">
+                    <input type="checkbox" name="category" id="jackets" class="filter-categories" value="jackets" />Jackets</label>
                 </li>
-                <li>
-                    <label for="bianyo" class="">
-                    <input type="checkbox" name="category" id="bianyo" class="" value="bianyo" />Bianyo</label>
+                <li class="filter-sorts">
+                    <label for="suitcase" class="filter-categories">
+                    <input type="checkbox" name="category" id="suitcase" class="filter-categories" value="suitcase" />Suitcases</label>
                 </li>
-                <li>
-                    <label for="celine" class="">
-                    <input type="checkbox" name="category" id="celine" class="" value="celine" />Celine</label>
+                <li class="filter-sorts">
+                    <label for="backpacks" class="filter-categories">
+                    <input type="checkbox" name="category" id="backpacks" class="filter-categories" value="backpacks" />Backpacks</label>
                 </li>
-                <li>
-                    <label for="gucci" class="">
-                    <input type="checkbox" name="category" id="gucci" class="" value="gucci" />Gucci</label>
+                <li class="filter-sorts">
+                    <label for="trekking-gears" class="filter-categories">
+                    <input type="checkbox" name="category" id="trekking-gears" class="filter-categories" value="trekking-gears" />Trekking Gears</label>
                 </li>
-                <li>
-                    <label for="camel" class="">
-                    <input type="checkbox" name="category" id="camel" class="" value="camel" />Camel</label>
+                <li class="filter-sorts">
+                    <label for="shoes" class="filter-categories">
+                    <input type="checkbox" name="category" id="shoes" class="filter-categories" value="shoes" />Travelling Shoes</label>
+                </li>
+            </ul>
+
+            <ul class="flex-categories">
+                <h3 class="filter-desc-categories">Brands</h3>
+                <li class="filter-sorts">
+                    <label for="arnisa" class="filter-categories">
+                    <input type="checkbox" name="category" id="arnisa" class="filter-categories" value="arnisa" />Arnisa</label>
+                </li>
+                <li class="filter-sorts">
+                    <label for="bianyo" class="filter-categories">
+                    <input type="checkbox" name="category" id="bianyo" class="filter-categories" value="bianyo" />Bianyo</label>
+                </li>
+                <li class="filter-sorts">
+                    <label for="celine" class="filter-categories">
+                    <input type="checkbox" name="category" id="celine" class="filter-categories" value="celine" />Celine</label>
+                </li>
+                <li class="filter-sorts">
+                    <label for="gucci" class="filter-categories">
+                    <input type="checkbox" name="category" id="gucci" class="filter-categories" value="gucci" />Gucci</label>
+                </li>
+                <li class="filter-sorts">
+                    <label for="camel" class="filter-categories">
+                    <input type="checkbox" name="category" id="camel" class="filter-categories" value="camel" />Camel</label>
                 </li>
             </ul>
         </aside>
 
         <main>
-            <section>
-                <ul>
-                    <li>
-                        <div class="card card-vertical">
+                <ul class="section-products">
+                    <li class="section-main">
+                        <div class="cards card-vertical">
                             <div class="img-container">
                               <img
-                                src="../images/grid-2.jpg"
+                                src="../components/images/bags3.3.jpeg"
                                 alt="product image"
-                                class="grid-col-img card-img"
+                                class="grid-col-img cards-img"
                               />
                             </div>
               
                             <div class="card-content padding-s">
                               <h3 class="card-grid">
-                                Stylish Bags <i class="fas fa-heart grid-icon"></i>
+                                Stylish Bags <i class="fas fa-heart cards-icon"></i>
                               </h3>
               
-                              <span>Girls White & Pink Bag</span>
+                              <span class="cards-desc">Girls White & Pink Bag</span>
               
                               <div class="gap-s">
                                 <span class="txt-bold"> Rs.3899</span>
                                 <span class="txt-crossed-off">Rs.2999</span>
                                 <span class="txt-high-light">10%</span>
                               </div>
+
                               <div class="card-footer">
-                                <button
-                                  class="btn btn-text-icon-primary btn-variant grid-footer-icons"
-                                >
-                                  <span class="btn-icon"
-                                    ><i class="fas fa-shopping-cart button-icons"></i></span
-                                  >Add to Cart
-                                </button>
+                                <button class="btn btn-text-icon-primary grid-cards-icons">
+                                    <span class="btn-card-icon"><i class="fas fa-shopping-cart"></i>
+                           </span>Add to Cart</button>  
                               </div>
                             </div>
                             <span class="tag">New</span>
                           </div>              
                     </li>
-                    <li>
-                        <div class="card card-vertical">
+                    <li class="section-main">
+                        <div class="cards card-vertical">
                             <div class="img-container">
                               <img
-                                src="../images/grid-2.jpg"
+                                src="../components/images/bags3.3.jpeg"
                                 alt="product image"
-                                class="grid-col-img card-img"
+                                class="grid-col-img cards-img"
                               />
                             </div>
               
                             <div class="card-content padding-s">
                               <h3 class="card-grid">
-                                Stylish Bags <i class="fas fa-heart grid-icon"></i>
+                                Stylish Bags <i class="fas fa-heart cards-icon"></i>
                               </h3>
               
-                              <span>Girls White & Pink Bag</span>
+                              <span class="cards-desc">Girls White & Pink Bag</span>
               
                               <div class="gap-s">
                                 <span class="txt-bold"> Rs.3899</span>
                                 <span class="txt-crossed-off">Rs.2999</span>
                                 <span class="txt-high-light">10%</span>
                               </div>
+
                               <div class="card-footer">
-                                <button
-                                  class="btn btn-text-icon-primary btn-variant grid-footer-icons"
-                                >
-                                  <span class="btn-icon"
-                                    ><i class="fas fa-shopping-cart button-icons"></i></span
-                                  >Add to Cart
-                                </button>
+                                <button class="btn btn-text-icon-primary grid-cards-icons">
+                                    <span class="btn-card-icon"><i class="fas fa-shopping-cart"></i>
+                           </span>Add to Cart</button>  
                               </div>
                             </div>
                             <span class="tag">New</span>
-                          </div>
-                          
+                          </div>              
+                    </li>
+                    <li class="section-main">
+                        <div class="cards card-vertical">
+                            <div class="img-container">
+                              <img
+                                src="../components/images/bags3.3.jpeg"
+                                alt="product image"
+                                class="grid-col-img cards-img"
+                              />
+                            </div>
+              
+                            <div class="card-content padding-s">
+                              <h3 class="card-grid">
+                                Stylish Bags <i class="fas fa-heart cards-icon"></i>
+                              </h3>
+              
+                              <span class="cards-desc">Girls White & Pink Bag</span>
+              
+                              <div class="gap-s">
+                                <span class="txt-bold"> Rs.3899</span>
+                                <span class="txt-crossed-off">Rs.2999</span>
+                                <span class="txt-high-light">10%</span>
+                              </div>
+
+                              <div class="card-footer">
+                                <button class="btn btn-text-icon-primary grid-cards-icons">
+                                    <span class="btn-card-icon"><i class="fas fa-shopping-cart"></i>
+                           </span>Add to Cart</button>  
+                              </div>
+                            </div>
+                            <span class="tag">New</span>
+                          </div>              
+                    </li>
+                    <li class="section-main">
+                        <div class="cards card-vertical">
+                            <div class="img-container">
+                              <img
+                                src="../components/images/bags3.3.jpeg"
+                                alt="product image"
+                                class="grid-col-img cards-img"
+                              />
+                            </div>
+              
+                            <div class="card-content padding-s">
+                              <h3 class="card-grid">
+                                Stylish Bags <i class="fas fa-heart cards-icon"></i>
+                              </h3>
+              
+                              <span class="cards-desc">Girls White & Pink Bag</span>
+              
+                              <div class="gap-s">
+                                <span class="txt-bold"> Rs.3899</span>
+                                <span class="txt-crossed-off">Rs.2999</span>
+                                <span class="txt-high-light">10%</span>
+                              </div>
+
+                              <div class="card-footer">
+                                <button class="btn btn-text-icon-primary grid-cards-icons">
+                                    <span class="btn-card-icon"><i class="fas fa-shopping-cart"></i>
+                           </span>Add to Cart</button>  
+                              </div>
+                            </div>
+                            <span class="tag">New</span>
+                          </div>              
+                    </li>
+                    <li class="section-main">
+                        <div class="cards card-vertical">
+                            <div class="img-container">
+                              <img
+                                src="../components/images/bags3.3.jpeg"
+                                alt="product image"
+                                class="grid-col-img cards-img"
+                              />
+                            </div>
+              
+                            <div class="card-content padding-s">
+                              <h3 class="card-grid">
+                                Stylish Bags <i class="fas fa-heart cards-icon"></i>
+                              </h3>
+              
+                              <span class="cards-desc">Girls White & Pink Bag</span>
+              
+                              <div class="gap-s">
+                                <span class="txt-bold"> Rs.3899</span>
+                                <span class="txt-crossed-off">Rs.2999</span>
+                                <span class="txt-high-light">10%</span>
+                              </div>
+
+                              <div class="card-footer">
+                                <button class="btn btn-text-icon-primary grid-cards-icons">
+                                    <span class="btn-card-icon"><i class="fas fa-shopping-cart"></i>
+                           </span>Add to Cart</button>  
+                              </div>
+                            </div>
+                            <span class="tag">New</span>
+                          </div>              
+                    </li>
+                    <li class="section-main">
+                        <div class="cards card-vertical">
+                            <div class="img-container">
+                              <img
+                                src="../components/images/bags3.3.jpeg"
+                                alt="product image"
+                                class="grid-col-img cards-img"
+                              />
+                            </div>
+              
+                            <div class="card-content padding-s">
+                              <h3 class="card-grid">
+                                Stylish Bags <i class="fas fa-heart cards-icon"></i>
+                              </h3>
+              
+                              <span class="cards-desc">Girls White & Pink Bag</span>
+              
+                              <div class="gap-s">
+                                <span class="txt-bold"> Rs.3899</span>
+                                <span class="txt-crossed-off">Rs.2999</span>
+                                <span class="txt-high-light">10%</span>
+                              </div>
+
+                              <div class="card-footer">
+                                <button class="btn btn-text-icon-primary grid-cards-icons">
+                                    <span class="btn-card-icon"><i class="fas fa-shopping-cart"></i>
+                           </span>Add to Cart</button>  
+                              </div>
+                            </div>
+                            <span class="tag">New</span>
+                          </div>              
+                    </li>
+                    <li class="section-main">
+                        <div class="cards card-vertical">
+                            <div class="img-container">
+                              <img
+                                src="../components/images/bags3.3.jpeg"
+                                alt="product image"
+                                class="grid-col-img cards-img"
+                              />
+                            </div>
+              
+                            <div class="card-content padding-s">
+                              <h3 class="card-grid">
+                                Stylish Bags <i class="fas fa-heart cards-icon"></i>
+                              </h3>
+              
+                              <span class="cards-desc">Girls White & Pink Bag</span>
+              
+                              <div class="gap-s">
+                                <span class="txt-bold"> Rs.3899</span>
+                                <span class="txt-crossed-off">Rs.2999</span>
+                                <span class="txt-high-light">10%</span>
+                              </div>
+
+                              <div class="card-footer">
+                                <button class="btn btn-text-icon-primary grid-cards-icons">
+                                    <span class="btn-card-icon"><i class="fas fa-shopping-cart"></i>
+                           </span>Add to Cart</button>  
+                              </div>
+                            </div>
+                            <span class="tag">New</span>
+                          </div>              
+                    </li>
+                    <li class="section-main">
+                        <div class="cards card-vertical">
+                            <div class="img-container">
+                              <img
+                                src="../components/images/bags3.3.jpeg"
+                                alt="product image"
+                                class="grid-col-img cards-img"
+                              />
+                            </div>
+              
+                            <div class="card-content padding-s">
+                              <h3 class="card-grid">
+                                Stylish Bags <i class="fas fa-heart cards-icon"></i>
+                              </h3>
+              
+                              <span class="cards-desc">Girls White & Pink Bag</span>
+              
+                              <div class="gap-s">
+                                <span class="txt-bold"> Rs.3899</span>
+                                <span class="txt-crossed-off">Rs.2999</span>
+                                <span class="txt-high-light">10%</span>
+                              </div>
+
+                              <div class="card-footer">
+                                <button class="btn btn-text-icon-primary grid-cards-icons">
+                                    <span class="btn-card-icon"><i class="fas fa-shopping-cart"></i>
+                           </span>Add to Cart</button>  
+                              </div>
+                            </div>
+                            <span class="tag">New</span>
+                          </div>              
+                    </li>
+                    <li class="section-main">
+                        <div class="cards card-vertical">
+                            <div class="img-container">
+                              <img
+                                src="../components/images/bags3.3.jpeg"
+                                alt="product image"
+                                class="grid-col-img cards-img"
+                              />
+                            </div>
+              
+                            <div class="card-content padding-s">
+                              <h3 class="card-grid">
+                                Stylish Bags <i class="fas fa-heart cards-icon"></i>
+                              </h3>
+              
+                              <span class="cards-desc">Girls White & Pink Bag</span>
+              
+                              <div class="gap-s">
+                                <span class="txt-bold"> Rs.3899</span>
+                                <span class="txt-crossed-off">Rs.2999</span>
+                                <span class="txt-high-light">10%</span>
+                              </div>
+
+                              <div class="card-footer">
+                                <button class="btn btn-text-icon-primary grid-cards-icons">
+                                    <span class="btn-card-icon"><i class="fas fa-shopping-cart"></i>
+                           </span>Add to Cart</button>  
+                              </div>
+                            </div>
+                            <span class="tag">New</span>
+                          </div>              
+                    </li>
+                    <li class="section-main">
+                        <div class="cards card-vertical">
+                            <div class="img-container">
+                              <img
+                                src="../components/images/bags3.3.jpeg"
+                                alt="product image"
+                                class="grid-col-img cards-img"
+                              />
+                            </div>
+              
+                            <div class="card-content padding-s">
+                              <h3 class="card-grid">
+                                Stylish Bags <i class="fas fa-heart cards-icon"></i>
+                              </h3>
+              
+                              <span class="cards-desc">Girls White & Pink Bag</span>
+              
+                              <div class="gap-s">
+                                <span class="txt-bold"> Rs.3899</span>
+                                <span class="txt-crossed-off">Rs.2999</span>
+                                <span class="txt-high-light">10%</span>
+                              </div>
+
+                              <div class="card-footer">
+                                <button class="btn btn-text-icon-primary grid-cards-icons">
+                                    <span class="btn-card-icon"><i class="fas fa-shopping-cart"></i>
+                           </span>Add to Cart</button>  
+                              </div>
+                            </div>
+                            <span class="tag">New</span>
+                          </div>              
                     </li>
                 </ul>
-            </section>
         </main>
     </div>
 
