@@ -45,7 +45,8 @@ body{
   --secondary-hover: #00ffff;
   --shadow-color: rgba(0, 0, 0, 0.1);
   --cta-color: #7e17c8;
-  --dnd: #ae2012;
+  --wishlist: #ae2012;
+  --shadow-card:0 0 12px 0 var(--primary-color);
 
 }
 
