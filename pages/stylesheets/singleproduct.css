@@ -1,0 +1,25 @@
+.single-product{
+    display: flex;
+    margin: 12rem 5rem 5rem;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    box-shadow: var(--shadow-card);
+}
+.img-container{
+    gap: 4rem;
+    margin: 1rem;
+}
+.single-product-img{
+    width: 35rem;
+    box-shadow: var(--shadow-card);
+    border-radius: 5px;
+}
+
+.singleproduct-info{
+    font-size: 2rem;
+    box-shadow: var(--shadow-card);
+    border-radius: 5px;
+    height: 60vh;
+    padding:4rem;
+}
