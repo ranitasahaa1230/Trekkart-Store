@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
-@import './pages/stylesheets/component.css';
+@import "./pages/stylesheets/component.css";
 
 * {
   margin: 0;
@@ -19,12 +19,12 @@ html {
   scroll-behavior: smooth;
 }
 
-body{
+body {
   font-family: "Roboto", sans-serif;
 }
 
 ::-webkit-scrollbar {
-  width: 6px;
+  width: 10px;
   height: 6px;
 }
 
@@ -46,8 +46,7 @@ body{
   --shadow-color: rgba(0, 0, 0, 0.1);
   --cta-color: #7e17c8;
   --wishlist: #ae2012;
-  --shadow-card:0 0 12px 0 var(--primary-color);
-
+  --shadow-card: 0 0 12px 0 var(--primary-color);
 }
 
 header {
@@ -294,6 +293,9 @@ section {
 .home #next {
   right: 3rem;
 }
+h2.heading {
+  font-size: 2.5rem;
+}
 .service .box-container {
   display: flex;
   flex-wrap: wrap;
@@ -326,13 +328,13 @@ section {
   padding: 1rem 0;
 }
 
-.latest-products .products-container {
+.latest-products .products-containerbox {
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
 }
 
-.latest-products .products-container .product-box {
+.latest-products .products-containerbox .product-box {
   border: 2px solid var(--shadow-color);
   border-radius: 10px;
   text-align: center;
@@ -342,11 +344,11 @@ section {
   padding-bottom: 1rem;
 }
 
-.latest-products .products-container .product-box:hover img {
+.latest-products .products-containerbox .product-box:hover img {
   transform: scale(1.04);
 }
 
-.latest-products .products-container .product-box .desc-products {
+.latest-products .products-containerbox .product-box .desc-products {
   font-size: 1.8rem;
   margin-top: 1rem;
   color: var(--gray);

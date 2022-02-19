@@ -1,21 +1,21 @@
-.checkout-section{
-    display: grid;
-    grid-template-columns: repeat(2,minmax(300px,1fr));
+.checkout-section {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(300px, 1fr));
 }
-.shipping-checkout-info{
-    display: flex;
-    justify-content: space-around;
-    margin: 2rem;
-    font-size: 2rem;
+.shipping-checkout-info {
+  display: flex;
+  justify-content: space-around;
+  margin: 2rem;
+  font-size: 2rem;
 }
-.shipping-info{
-    padding:2rem 4rem;
-    width: 50%;
+.shipping-info {
+  padding: 2rem 4rem;
+  width: 50%;
 }
-.shipping-info-right{
-    padding: 2rem 4rem;
-    width: 50%;
+.shipping-info-right {
+  padding: 2rem 4rem;
+  width: 50%;
 }
-.checkout-input{
-    margin: 1rem 0;
+.checkout-input {
+  margin: 1rem 0;
 }
