@@ -1,46 +1,45 @@
-.wishlist-heading{
-    margin-top: 12rem;
-    text-align: center;
-    font-size: 2.8rem;
+.wishlist-heading {
+  margin-top: 12rem;
+  text-align: center;
+  font-size: 2.8rem;
 }
-.wishlist-desc{
-    color: var(--gray);
+.wishlist-desc {
+  color: var(--gray);
 }
 
-.wishlist-products{
-    margin: 4rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 4rem;
+.wishlist-products {
+  margin: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4rem;
 }
-.wishlist-icon{
-    font-size: 2.4rem;
+.wishlist-icon {
+  font-size: 2.4rem;
   -webkit-text-stroke-width: 2px;
-  color:var(--wishlist);
-  -webkit-text-stroke-color:var(--wishlist);
-    
+  color: var(--wishlist);
+  -webkit-text-stroke-color: var(--wishlist);
 }
-.wishlist-icon:hover{
-  -webkit-text-stroke-color:var(--primary-color);
+.wishlist-icon:hover {
+  -webkit-text-stroke-color: var(--primary-color);
   color: transparent;
 }
 .btn-dismiss {
-    position: absolute;
-    top: 2%;
-    right: 4%;
-    outline: none;
-    cursor: pointer;
-    font-size: 2rem;
-    padding:2px 8px;
-    border-radius: 50%;
-    background: var(--gray);
-    color: var(--bg-code);
-  }
-  /* .card .btn-dismiss{
+  position: absolute;
+  top: 2%;
+  right: 4%;
+  outline: none;
+  cursor: pointer;
+  font-size: 2rem;
+  padding: 2px 8px;
+  border-radius: 50%;
+  background: var(--gray);
+  color: var(--bg-code);
+}
+/* .card .btn-dismiss{
       color: var(--primary-color);
   } */
-  .btn-dismiss:hover {
-    background: var(--black-bg);
-  }
+.btn-dismiss:hover {
+  background: var(--black-bg);
+}
