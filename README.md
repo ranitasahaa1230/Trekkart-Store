@@ -1,5 +1,5 @@
 <div align="center">
-<img alt="trekkart store logo" src="components/logo/andriod-chrome-192*192.png" width="150px" height="150px" />
+<img alt="trekkart store logo" src="./components/logo/andriod-chrome-192*192.png" width="150px" height="150px" />
 </div>
 
 # Trekkart Store
