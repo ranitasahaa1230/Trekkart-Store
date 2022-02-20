@@ -68,8 +68,6 @@ ul {
   outline: none;
   border-radius: 8px;
   position: relative;  
-  border:2px solid var(--wishlist);
-
 }
 .cards:hover {
   transform: scale(1.04);
