@@ -1,3 +1,7 @@
+
+
+https://user-images.githubusercontent.com/37957073/154861201-00586373-2541-48cb-8440-8a990e62b4ea.mp4
+
 <div align="center">
 <img alt="trekkart store logo" src="./components/logo/logo.png" width="150px" height="150px" />
 </div>
@@ -22,7 +26,8 @@ Currently, it contains screens for the following page
 Trekkart Store(https://trekkart-store.netlify.app/)
 
 ## Demo
-https://twitter.com/Ifullofsunshine/status/1495442271546015744
+
+https://user-images.githubusercontent.com/37957073/154861236-b76d30ef-c499-4ed1-b07e-a93a8b7250c4.mp4
 
 ## 👩‍💻 Connect with me
 
