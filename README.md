@@ -1,7 +1,3 @@
-
-
-https://user-images.githubusercontent.com/37957073/154861201-00586373-2541-48cb-8440-8a990e62b4ea.mp4
-
 <div align="center">
 <img alt="trekkart store logo" src="./components/logo/logo.png" width="150px" height="150px" />
 </div>
