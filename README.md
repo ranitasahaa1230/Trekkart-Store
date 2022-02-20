@@ -1,6 +1,5 @@
 <p align="center">
   <a href="https://github.com/ranitasahaa1230/Trekkart-Store"  target="_blank"><img width="150" src="./components/images/logo.png" alt="trekkart store logo"></a></p>
-</p>
 <!-- <div align="center">
 <img alt="trekkart store logo" src="./components/logo/logo.png" width="150px" height="150px" />
 </div> -->
