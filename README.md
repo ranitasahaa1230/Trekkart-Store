@@ -1,6 +1,6 @@
 <div align="center">
-
 <img alt="trekkart store logo" src="components/logo/andriod-chrome-192*192.png" width="150px" height="150px" />
+</div>
 
 # Trekkart Store
 
@@ -9,10 +9,10 @@ Trekkart Store is is an e-commerce platform for the ones who love travelling, Ge
 ## Contains
 
 Currently, it contains screens for the following page
--Home (https://trekkart-store.netlify.app/)
--Products (https://trekkart-store.netlify.app/pages/products.html)
--Cart Management (https://trekkart-store.netlify.app/pages/cart.html)
--Wishlist Management (https://trekkart-store.netlify.app/pages/wishlist.html)
+- Home (https://trekkart-store.netlify.app/)
+- Products (https://trekkart-store.netlify.app/pages/products.html)
+- Cart Management (https://trekkart-store.netlify.app/pages/cart.html)
+- Wishlist Management (https://trekkart-store.netlify.app/pages/wishlist.html)
 - Log In (https://trekkart-store.netlify.app/pages/login.html)
 - Sign Up (https://trekkart-store.netlify.app/pages/signup.html)
 - Single Product Page(https://trekkart-store.netlify.app/pages/singleproduct.html)
