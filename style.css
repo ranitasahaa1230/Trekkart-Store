@@ -544,7 +544,7 @@ h2.heading {
     margin: 0 2rem;
   }
 
-  header {
+  header{
     flex-flow: column;
   }
 
@@ -555,6 +555,13 @@ h2.heading {
   .home .slide-container .slide .content h3 {
     margin-top: 15rem;
   }
+  .form-box, .cart-grid {
+    margin-top: 18rem;
+  }
+  .wishlist-main, .products-container, .single-product-page{
+    margin-top: 26rem;
+  }
+
 }
 
 @media (max-width: 400px) {

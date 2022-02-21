@@ -1,13 +1,14 @@
 .cart-grid {
   display: grid;
   grid-template-columns: 3fr 3fr;
-  grid-area: "main section";
+  /* grid-area: "main section"; */
   gap: 1rem;
 }
 .main-cart {
   margin: 12rem 2rem 5rem 6rem;
   box-shadow: var(--shadow-card);
   border-radius: 5px;
+  /* grid-area: main; */
 }
 .cart-desc {
   color: var(--gray);
@@ -25,6 +26,8 @@
   box-shadow: var(--shadow-card);
   border-radius: 5px;
   height: 60vh;
+  /* grid-area: section; */
+
 }
 .cards-horizontal {
   display: flex;
